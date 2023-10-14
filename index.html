@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="styles/ui.css" media="all">
+</head>
+<body>
+    <div class="audio-container">
+        <audio src="hbdsong.mp3" id="audio" controls loop="true"></audio>
+    </div>
+
+    <div class="heading-container">
+        <h2>Countdown to your birthday:</h2>
+    </div>
+
+    <div class="countdown">
+        <div class="box">
+            <span class="num" id="day-box">00</span>
+            <span class="text">Hari</span>
+        </div>
+        <div class="box">
+            <span class="num" id="hr-box">00</span>
+            <span class="text">Jam</span>
+        </div>
+        <div class="box">
+            <span class="num" id="min-box">00</span>
+            <span class="text">Menit</span>
+        </div>
+        <div class="box">
+            <span class="num" id="sec-box">00</span>
+            <span class="text">Detik</span>
+        </div>
+    </div>
+   
+    <script src="scripts/timer.js"></script>
+</body>
+</html>
